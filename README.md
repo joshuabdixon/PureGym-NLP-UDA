@@ -18,6 +18,14 @@ I approach this project as a consultancy-style case study, using public Trustpil
 - Runs emotion classification using two transformer-based models.
 - Consolidates outputs into report-ready tables and plots.
 
+## Reproducibility note (UMAP-based plots)
+Some BERTopic visualisations depend on a UMAP projection and can vary slightly across machines (hardware/OS and execution settings) even when the same random seed is used. For this reason, the figures and tables referenced in the report are already saved in `output/plots_report/` and `output/tables_report/` (with intermediate outputs in `output/plots/` and `output/tables/`). Re-running the notebooks will overwrite these saved artefacts with outputs generated in the marker’s environment.
+
+The `notebooks/` folder also includes PDF exports as a backup for review if execution issues occur. Note that interactive HTML outputs (for example some BERTopic visualisations) are not visible in PDF form.
+
+## Hardware
+All experiments for this project were run locally on a MacBook Pro (16-inch, November 2024) with an Apple M4 Pro chip (14 CPU cores: 10 performance and 4 efficiency cores) and 24 GB unified memory, running macOS Tahoe 26.2.
+
 ## Data
 
 The raw Trustpilot review data are provided in `data/` as `PureGym Customer Reviews.csv`. The dataset was obtained from a publicly available Kaggle repository: [https://www.kaggle.com/datasets/zackyboi/puregym-customer-reviews-sentiment-analysis](https://www.kaggle.com/datasets/zackyboi/puregym-customer-reviews-sentiment-analysis).

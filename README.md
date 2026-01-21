@@ -150,7 +150,7 @@ Assignment 2/
 ```
 
 ## Additional notes
-- Notebooks are written to resolve the project/repo root automatically as. If running from a different working directory, open notebooks from the repo root.
+- Notebooks are written to resolve the project/repo root automatically. If running from a different working directory, open notebooks from the repo root.
 - Outputs are reproducible where supported (seeded; greedy decoding for Falcon). 
 
 

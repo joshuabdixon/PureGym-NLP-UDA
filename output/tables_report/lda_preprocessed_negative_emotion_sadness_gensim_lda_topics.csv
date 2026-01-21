@@ -1,0 +1,4 @@
+Topic,TopicId,Count,TopWords_lambda_1_0,TopWords_lambda_0_1,Coherence_c_v
+1,1,429,"shower, change, go, time, member","shower, order, clean, bad, leave",0.39833775805758903
+2,3,182,"machine, open, weight, since, space","weight, space, press, free, workout",0.39833775805758903
+3,2,101,"cancel, class, membership, get, pay","cancel, membership, subscription, freeze, say",0.39833775805758903

@@ -1,0 +1,6 @@
+Topic,TopicId,Count,TopWords_lambda_1_0,TopWords_lambda_0_1,Coherence_c_v
+1,1,1150,"time, member, room, people, one","room, changing, toilet, locker, open",0.40307532476057195
+2,2,558,"staff, member, shower, water, like","water, air, hot, access, cold",0.40307532476057195
+3,5,460,"class, hour, time, spin, early","class, spin, early, min, instructor",0.40307532476057195
+4,3,166,"membership, customer, email, service, month","membership, email, cancel, £, cancelled",0.40307532476057195
+5,4,34,"machine, weight, area, space, busy","weight, space, amount, cleaned, machine",0.40307532476057195

@@ -6,9 +6,7 @@ The project processes Trustpilot reviews for PureGym, performs text preprocessin
 
 ## Context and Motivation: Why I chose this project
 
-I approach this project as a consultancy-style case study, using public Trustpilot reviews for PureGym to explore how large volumes of unstructured customer feedback can be summarised and analysed using NLP techniques. The aim is to build a practical, end-to-end analysis pipeline that could be adapted to a workplace setting with minimal changes, for example by swapping in a different review source or business domain.
-
-Due to data access and permission constraints, I am unable to use proprietary company data. Instead, I use a publicly available PureGym dataset as a realistic proxy. My interpretation of the results is informed by general familiarity with the fitness industry and first-hand experience as a PureGym customer, which helps ground the findings in a plausible operational context while keeping the analysis fully reproducible.
+I approach this project as a consultancy-style case study, using public Trustpilot reviews for PureGym to explore how large volumes of unstructured customer feedback can be summarised and analysed using NLP techniques. The aim is to build a practical, end-to-end analysis pipeline that could be adapted to a workplace setting with minimal changes, for example by swapping in a different review source or business domain. Due to data access and permission constraints, I am unable to use proprietary company data. Instead, I use a publicly available PureGym dataset as a realistic proxy. 
 
 ## What This Project Does
 - Filters and cleans raw Trustpilot reviews and ensures language consistency.

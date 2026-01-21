@@ -1,4 +1,4 @@
-# Unstructured Data Analysis Final Project — PureGym Trustpilot Reviews
+# NLP-based sentiment analysis and topic modelling of PureGym customer reviews
 
 A reproducible pipeline for the Unstructured Data Analysis module (Imperial College London, MSc Machine Learning and Data Science). 
 

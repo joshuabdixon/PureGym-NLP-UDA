@@ -34,7 +34,7 @@ The raw Trustpilot review data are provided in `data/` as `PureGym Customer Revi
 ## Getting Started
 
 ### Prerequisites
-- Python 3.10 (3.10.11 recommended)
+- Python 3.10 (3.10.19 was used for development and is recommended)
 
 ### Key packages and versions
 This project relies on standard Python data science and NLP libraries (for example pandas, NumPy, PyTorch, Hugging Face Transformers, BERTopic, Gensim, and UMAP). The full list of dependencies and pinned package versions used for the project environment can be found in `requirements.txt`.

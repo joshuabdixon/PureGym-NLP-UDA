@@ -145,6 +145,7 @@ Assignment 2/
 ├── modelling/
 │   └── bertopic/
 │       └── bertopic_runner.py
+│       └── __init__.py
 └── output/
     ├── models/
     ├── plots/

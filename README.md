@@ -19,7 +19,7 @@ This project is framed as a consultancy-style case study using public Trustpilot
 - Consolidates outputs into report-ready tables and plots.
 
 ## Reproducibility note (UMAP-based plots)
-Some BERTopic visualisations depend on a UMAP projection and can vary slightly across machines (hardware/OS and execution settings) even when the same random seed is used. For this reason, the figures and tables referenced in the report are already saved in `output/plots_report/` and `output/tables_report/` (with intermediate outputs in `output/plots/` and `output/tables/`). Re-running the notebooks will overwrite these saved artefacts with outputs generated in the marker’s environment.
+BERTopic visualisations depend on a UMAP projection and can vary across machines (hardware/OS and execution settings) even when the same random seed is used. For this reason, the figures and tables referenced in the report are already saved in `output/plots_report/` and `output/tables_report/` (with intermediate outputs in `output/plots/` and `output/tables/`). Re-running the notebooks will overwrite these saved artefacts with outputs generated in the marker’s environment.
 
 The `notebooks/` folder also includes PDF exports as a backup for review if execution issues occur. Note that interactive HTML outputs (for example some BERTopic visualisations) are not visible in PDF form.
 
@@ -56,8 +56,6 @@ Paths and analysis settings in `config.ini`.
 - `[ANALYSIS_DATES]`: date range and date column
 - `[REPRODUCIBILITY]`: random seed for consistent results
 - `[MODELS]`: canonical names for saved model folders
-
-Here’s a polished version with a couple of grammar fixes and smoother phrasing (not changing meaning):
 
 ## Usage (run notebooks in order)
 
